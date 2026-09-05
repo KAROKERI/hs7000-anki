@@ -12,7 +12,7 @@ This repo ships **no vocabulary content** -- only the parsing and build
 tooling. See `NOTICE.md` for why, and for the full licensing breakdown.
 
 Don't want to run the scripts yourself? A ready-built deck is shared
-publicly on AnkiWeb: [高中英文參考詞彙表 Level 1-6（111學年度起適用｜大考中心）](https://ankiweb.net/shared/info/1109013663).
+publicly on AnkiWeb: [高中英文參考詞彙表 Level 1-6（111學年度起適用｜含中譯例句）](https://ankiweb.net/shared/info/996501688).
 Unlike the plain output described below, that AnkiWeb deck includes
 Chinese definitions and two example sentences per card, since it's built
 from the author's own personal study deck rather than from the scripts
