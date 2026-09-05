@@ -12,6 +12,11 @@ its N1-N5 levels.
 This repo ships **no vocabulary content** -- only the parsing and build
 tooling. See `NOTICE.md` for why, and for the full licensing breakdown.
 
+Don't want to run the scripts yourself? The ready-built deck is shared
+publicly on AnkiWeb: [高中英文參考詞彙表 Level 1-6（111學年度起適用｜大考中心）](https://ankiweb.net/shared/info/1109013663).
+Import it straight into the Anki desktop app -- no PDF or Python required.
+This repository itself stays scripts-only; see `NOTICE.md` for why.
+
 ## What you get
 
 Each card: front = English word, back = part of speech plus official
