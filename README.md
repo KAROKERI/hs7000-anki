@@ -1,5 +1,7 @@
 # hs7000-anki
 
+**English** | [繁體中文](README.zh-TW.md)
+
 Scripts to build an Anki deck of Taiwan's official high-school reference
 vocabulary list (大學入學考試中心《高中英文參考詞彙表》), organized into
 Level 1-6 subdecks inside a single `.apkg` -- the same "one package,
