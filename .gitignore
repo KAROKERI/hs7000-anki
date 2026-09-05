@@ -1,0 +1,11 @@
+# Never commit the copyrighted source PDF, the word list it produces,
+# or a built deck -- see NOTICE.md.
+*.pdf
+words_by_level.json
+words.json
+*.apkg
+
+# Common junk
+__pycache__/
+*.pyc
+.DS_Store
