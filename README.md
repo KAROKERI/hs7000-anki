@@ -1,28 +1,33 @@
 # hs7000-anki
 
-**English** | [繁體中文](README.zh-TW.md)
+**English** | [繁體中文](https://github.com/KAROKERI/hs7000-anki/blob/main/README.zh-TW.md)
 
 Scripts to build an Anki deck of Taiwan's official high-school reference
 vocabulary list (大學入學考試中心《高中英文參考詞彙表》), organized into
 Level 1-6 subdecks inside a single `.apkg` -- the same "one package,
-levels as subdecks" structure used by
-[egg rolls' JLPT10k deck](https://github.com/5mdld/anki-jlpt-decks) for
+levels as subdecks" structure used by [egg rolls' JLPT10k deck](https://github.com/5mdld/anki-jlpt-decks) for
 its N1-N5 levels.
 
 This repo ships **no vocabulary content** -- only the parsing and build
 tooling. See `NOTICE.md` for why, and for the full licensing breakdown.
 
-Don't want to run the scripts yourself? The ready-built deck is shared
+Don't want to run the scripts yourself? A ready-built deck is shared
 publicly on AnkiWeb: [高中英文參考詞彙表 Level 1-6（111學年度起適用｜大考中心）](https://ankiweb.net/shared/info/1109013663).
-Import it straight into the Anki desktop app -- no PDF or Python required.
-This repository itself stays scripts-only; see `NOTICE.md` for why.
+Unlike the plain output described below, that AnkiWeb deck includes
+Chinese definitions and two example sentences per card, since it's built
+from the author's own personal study deck rather than from the scripts
+here -- see `NOTICE.md` for the separate template license that applies
+to it. Import it straight into the Anki desktop app -- no PDF or Python
+required. This repository itself stays scripts-only.
 
 ## What you get
 
 Each card: front = English word, back = part of speech plus official
 level (`Level 1` through `Level 6`). This is a plain vocabulary index,
 not a full study deck -- no Chinese definitions or example sentences,
-since those aren't part of the official list itself.
+since those aren't part of the official list itself. (This describes
+what the scripts in this repo build. The ready-built AnkiWeb deck linked
+above is different and richer -- see `NOTICE.md`.)
 
 ## Usage
 
@@ -32,8 +37,7 @@ Install the dependencies:
 pip install pdfplumber genanki
 ```
 
-Download your own copy of the official PDF from CEEC (search
-`高中英文參考詞彙表` on ceec.edu.tw), then parse it into a word/POS/level
+Download your own copy of the official PDF from CEEC (search `高中英文參考詞彙表` on ceec.edu.tw), then parse it into a word/POS/level
 JSON and build the `.apkg`:
 
 ```bash
