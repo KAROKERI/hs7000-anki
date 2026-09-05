@@ -1,5 +1,7 @@
 # Licensing / attribution notice
 
+**English** | [繁體中文](NOTICE.zh-TW.md)
+
 This repository has three layers with different licensing, kept
 deliberately separate so the copyrighted layer never has to leave your
 own machine.
